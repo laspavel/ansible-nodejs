@@ -1,0 +1,8 @@
+nodejs_version: "14.x"
+nodejs_install_npm_user: "{{ ansible_ssh_user }}"
+npm_config_prefix: "/usr/"
+npm_config_unsafe_perm: "true"
+nodejs_npm_global_packages: 
+  - name: gulp-cli 
+  - name: yarn
+nodejs_package_json_path: ""
